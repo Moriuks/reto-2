@@ -1,0 +1,19 @@
+{
+    "version": 3,
+    "mappings": "AGAA,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,GAAG;EACZ,UAAU,EAAE,UAAU;CAEzB",
+    "sources": [
+        "../sass/styles.scss",
+        "../sass/_config.scss",
+        "../sass/_mixins.scss",
+        "../sass/_utils.scss",
+        "../sass/_navbar.scss",
+        "../sass/_left-aside.scss",
+        "../sass/_main.scss",
+        "../sass/_rigth-aside.scss",
+        "../sass/_footer.scss",
+        "../sass/responsive/tablet.scss",
+        "../sass/responsive/mobile.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}
