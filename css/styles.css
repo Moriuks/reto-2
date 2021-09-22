@@ -8,3 +8,25 @@
 .body .body {
   background-color: #efefef;
 }
+
+.conteiner-article .row-name-conteiner .img-conteiner {
+  margin-right: 10px;
+}
+
+.conteiner-article .row-name-conteiner .img-conteiner img {
+  border-radius: 50%;
+  width: 35px;
+}
+
+.conteiner-article .row-name-conteiner .text-conteiner h2 {
+  font-size: 13px;
+}
+
+.conteiner-article .row-name-conteiner .text-conteiner p {
+  font-size: 10px;
+}
+
+.conteiner-article .title h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
