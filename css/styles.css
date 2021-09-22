@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+.body .body {
+  background-color: #efefef;
+}
+
 .right-aside-wrapper {
   border: solid 1px red;
 }
