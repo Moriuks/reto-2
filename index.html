@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,16 +10,31 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
     <title>Hello, world!</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- Header -->
     <header>
-        <nav>
-
-        </nav>
+        <div class="container navbar">
+            <div class="row">
+                <div class="column">
+                    <nav>
+                        <nav class="navbar navbar-expanded-lg navbar-light bg-light">
+                            <div class="container-fluid">
+                                <a class="navbar-brand">Navbar</a>
+                                <form class="d-flex">
+                                    <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                                    <button class="btn btn-outline-success" type="submit">Search</button>
+                                </form>
+                            </div>
+                        </nav>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </header>
 
-     <!-- body -->
+    <!-- body -->
     <div class="container" style="background-color: aqua; z-index:2;">
         <div class="row">
             <div class="col-12">
@@ -29,8 +45,8 @@
 
 
 
-     <div class="index-container container">
-         <div class="row">
+    <div class="index-container container">
+        <div class="row">
             <!-- container para todo left aside -->
             <div class="left-aside-wrapper col-3" style="border: 1px solid red;height: 60vh;">
                 <aside class="left-aside">
@@ -50,8 +66,8 @@
 
                 </aside>
             </div>
-         </div>         
-     </div>
+        </div>
+    </div>
 
 
     <!-- footer -->
@@ -67,5 +83,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>
