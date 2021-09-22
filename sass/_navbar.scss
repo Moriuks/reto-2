@@ -1,5 +1,13 @@
-header {
-    // width: 100%;
-    // height: 50px;
-    // outline: 2px blue dashed;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    flex-direction: initial;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    background-color: #FFFFFF;
+    .btn {}
 }
