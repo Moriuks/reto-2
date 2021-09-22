@@ -1,0 +1,35 @@
+// .main{
+//     height: 60vh; //temporal
+//     outline: 1px red dashed;
+// }
+
+
+.conteiner-article {
+    .row-name-conteiner{
+        .img-conteiner{
+            margin-right: 10px;
+
+
+            img {
+                border-radius: 50%;
+                width: 35px;
+            }
+        }
+
+        .text-conteiner {
+            h2{
+                font-size: 13px;
+            }
+            p{
+                font-size: 10px;
+            }
+        }
+    }
+    .title {
+        h2 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+    }
+}
