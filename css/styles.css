@@ -27,6 +27,10 @@
   background-color: #FFFFFF;
 }
 
+.navbar .btn {
+  padding: auto;
+}
+
 * {
   padding: 0;
   margin: 0;
