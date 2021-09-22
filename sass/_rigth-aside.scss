@@ -1,5 +1,39 @@
-//      width: 20%;
-//      height: 100%; //temporal
-.right-aside-wrapper{
-     border: solid 1px red;
+.right-aside-wrapper {
+    @include aside2-container;
+
+    .right-aside {
+        @include aside2-container;
+        .aside-card {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            @include aside2-container;
+            .card-img-top {
+                width: 150px;
+                height: 150px;
+
+            .right-aside {
+                
+                h5 {
+                    font-style: bold;
+                }
+                a {
+                    text-decoration: none;
+                    color: black;
+                    // color: #3b49df;
+                }
+                p {
+                    font-size: 14px;
+                }
+                .aside_tag {
+                    font-size: 10px;
+                    color: rgb(146, 146, 146);
+                }
+            }
+            }
+        }
+    }
+}
+.btn {
+    color: #3b49df;
 }
