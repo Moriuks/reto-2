@@ -1,4 +1,139 @@
-// .left-aside-wrapper{
-//     height: 60vh; //temporal
-//     border: solid 1px red;
-// }
+.mt-15{
+    margin-top: 15px;
+}
+
+.left-aside-wrapper{
+    width: 20%;
+    height: auto;
+    border: solid 1px red;
+
+        
+
+        h2{
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .nav-list-left-sidebar-lef{
+            list-style-type: none; /* Remove bullets */
+            padding: 0; /* Remove padding */
+            margin: 0; /* Remove margins */
+        }
+        .crayons-link{
+            color: black;
+        }
+
+        .crayons-link--block{
+            display: flex;
+            align-items: center;
+            padding: 8px;
+        }
+
+        @include a-hover-btn();
+}
+
+.left-aside{
+    @include OutlineChecker();
+    background: $upperBoxColor;
+    border-radius: 10px;
+    padding: 16px;
+    text-align: left;
+
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    span{
+        color: #3a49df;
+    }
+
+    h2{
+        margin-bottom: 8px;
+    }
+
+    p{
+        margin-bottom: 16px;
+    }
+
+    div{
+        display: block;
+    }
+
+    .btn{
+        @include button();
+    }
+}
+
+.icon-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    svg{
+        color: rgb(113, 113, 113);
+        fill: rgb(113, 113, 113)
+    }
+}
+
+
+.section-populartag{
+
+    display: block;
+    position: relative;
+    .popular-tag{
+        display: block;
+        border-radius: 3px;
+        position: relative;
+        text-align: left;
+        color: black;
+        padding: 8px 16px;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .popular-tag:hover + .popular-button{
+        display: block;
+    }
+   
+    .popular-button {
+        text-align: center;
+        color: white;
+        padding: 4px 12px;
+        border-radius: 5px;
+        display: none;
+        position: absolute;
+        top: 0px;
+        right: 5px;
+        background-color: $quinaryColor;
+        margin-top: 3px;
+        margin-bottom: 3px;   
+        
+    }
+    .popular-button:hover{
+        background-color: #323ebe;
+        border-radius: 5px;
+        display: block;
+        opacity: 1;
+    }
+}
+
+nav .scroll {
+    overflow-y: auto;
+    max-height: 42vh;
+ }
+
+ h3{
+     padding: 2px;
+     font-size: 16px;
+     font-weight: 900;
+ }
+
+ .bottom-left-sidebar{
+     
+    img{
+        width: 100%;
+        display: block;
+        border-radius: 8px;
+    }
+ }
+ 
