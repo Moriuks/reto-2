@@ -1,1 +1,10 @@
-
+@mixin banner {
+    background: no-repeat fixed #34a;
+    border-radius: 9px;
+    margin: 20px auto;
+    max-width: 1440px;
+    width: 96%;
+    font-family: $primaryFontContainer;
+    padding: 40px 0;
+    position: relative;
+}
