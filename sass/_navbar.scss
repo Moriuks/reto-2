@@ -1,13 +1,27 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 .navbar {
     display: flex;
     position: relative;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
     background-color: #FFFFFF;
+    width: 100%;
+    padding-left: 150px;
+    .img {
+        background-color: white;
+    }
+    .form-control {
+        padding-left: 180px;
+        color: white;
+        padding-left: 150px;
+    }
+    .btn1 {
+        display: flex;
+        background-color: blue;
+        border-color: white;
+        width: 200px;
+        border-radius: 10px;
+        text-align: center;
+        height: 35px;
+        color: white;
+    }
 }
