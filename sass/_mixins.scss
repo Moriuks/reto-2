@@ -8,3 +8,10 @@
     padding: 40px 0;
     position: relative;
 }
+
+@mixin a-hover-btn {
+    a:hover{
+        background-color: $bg-hover-color;
+        border-radius: 10px;
+    }
+}

@@ -32,7 +32,6 @@
 }
 
 .left-aside{
-    @include OutlineChecker();
     background: $upperBoxColor;
     border-radius: 10px;
     padding: 16px;
@@ -59,9 +58,9 @@
         display: block;
     }
 
-    .btn{
-        @include button();
-    }
+    // .btn{
+    //     @include button();
+    // }
 }
 
 .icon-container{
